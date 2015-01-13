@@ -2,7 +2,7 @@ module FeedzirraPodcast
   module Parser
     class RSS2ChannelImage
       include SAXMachine
-      include Feedzirra::FeedUtilities
+      include Feedjira::FeedUtilities
 
       element :url
       element :title

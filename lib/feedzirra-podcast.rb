@@ -1,5 +1,5 @@
 require 'periodic'
-require 'feedzirra'
+require 'feedjira'
 
 require 'feedzirra-podcast/parser/rss2'
 require 'feedzirra-podcast/parser/rss2_channel_image'

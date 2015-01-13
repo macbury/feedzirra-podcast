@@ -2,7 +2,7 @@ module FeedzirraPodcast
   module Parser
     class RSS2Item
       include SAXMachine
-      include Feedzirra::FeedEntryUtilities
+      include Feedjira::FeedEntryUtilities
 
       # RSS 2.0 required
 

@@ -2,7 +2,7 @@ module FeedzirraPodcast
   module Parser
     class ItunesOwner
       include SAXMachine
-      include Feedzirra::FeedUtilities
+      include Feedjira::FeedUtilities
 
       element :"itunes:email", as: :email
       element :"itunes:name", as: :name
